@@ -2,46 +2,36 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# tutorial intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+let's discover **solo explorer in less than 5 minutes**.
 
-## Getting Started
+## getting started
 
-Get started by **creating a new site**.
+get started by **connecting a wallet**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+or **try solo immediately** without connecting **[soloexplorer.xyz](https://soloexplorer.xyz)**.
 
-### What you'll need
+### what you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- a pubkey, token address, or transaction signature id
 
-## Generate a new site
+## generate a new search
 
-Generate a new Docusaurus site using the **classic template**.
+generate a new solo search using the **search bar**.
 
-The classic template will automatically be added to your project after you run the command:
+the search bar will automatically determine the type of ata and navigate you to the most relevant data. 
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+view token holdings with price, organized in a pie graph for ease of viewing
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+with a wallet connected, leave comments and view them all in one place. each comment navigates you to the original.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## start your journey
 
-## Start your site
+begin keeping closer track of your transactions, locked and staked tokens, or accounts you may leave behind. solo explorer allows users to take close account of their activities on solana. 
 
-Run the development server:
+your comments are logged with your pubkey, so solo works on devnet. no signatures for transactions are ever required.
 
-```bash
-cd my-website
-npm run start
-```
+! BEAR IN MIND !
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+the database for comments is on firebase/firestore. for this reason, solo is not intended for sensitive data like private keys, seedphrases, or passwords.
